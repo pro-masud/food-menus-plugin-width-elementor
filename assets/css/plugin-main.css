@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "DejaVu Sans";
+  src: url("/fonts/DejaVuSans.ttf");
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.foods {
+  width: 100%;
+  background-color: #ffead5;
+  padding: 70px 20px;
+}
+
+.foods .section-heading {
+  font-size: 50px;
+  line-height: 55px;
+  color: #000;
+  font-weight: 400;
+  font-family: "DejaVu Sans";
+  margin-bottom: 30px;
+}
+
+.foods .content {
+  margin-top: 20px;
+}
+.foods .content h3 {
+  font-family: "DejaVu Sans";
+  color: #ff3922;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.foods .content p {
+  font-family: "DejaVu Sans";
+  color: #2b2e34;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.foods .food-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .foods .section-heading {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 25px;
+  }
+  .foods .content h3 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .foods .content p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .foods .section-heading {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .foods .content h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .foods .content p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .foods {
+    padding: 50px 20px;
+  }
+  .foods .section-heading {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .foods .content h3 {
+    font-size: 24px;
+  }
+  .foods .content p {
+    font-size: 18px;
+  }
+  .foods .food-image {
+    margin-bottom: 15px;
+  }
+}
