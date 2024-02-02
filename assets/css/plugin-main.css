@@ -13,6 +13,18 @@
   padding: 70px 20px;
 }
 
+.bg-image {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 234, 213, 0.2),
+      rgba(255, 234, 213, 0.2)
+    ),
+    url("./image/bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .foods .section-heading {
   font-size: 50px;
   line-height: 55px;
